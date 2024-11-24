@@ -1,0 +1,71 @@
+{
+	"credit": "Made by sniffercraft34",
+	"parent": "block/block",
+	"textures": {
+		"4": "block/stone",
+		"particle": "block/dirt",
+		"bottom": "block/dirt",
+		"top": "block/grass_block_top",
+		"side": "block/grass_block_side",
+		"overlay": "block/grass_block_side_overlay"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#top", "cullface": "up", "tintindex": 0},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "down"}
+			}
+		},
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#overlay", "cullface": "north", "tintindex": 0},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#overlay", "cullface": "east", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#overlay", "cullface": "south", "tintindex": 0},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#overlay", "cullface": "west", "tintindex": 0}
+			}
+		},
+		{
+			"from": [2.5, 17, 3],
+			"to": [3.5, 18, 5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2.5, 17, 3]},
+			"faces": {
+				"north": {"uv": [0, 0, 1, 1], "texture": "#4", "cullface": "up"},
+				"east": {"uv": [4, 0, 6, 1], "texture": "#4", "cullface": "up"},
+				"south": {"uv": [6, 0, 7, 1], "texture": "#4", "cullface": "up"},
+				"west": {"uv": [0, 0, 2, 1], "texture": "#4", "cullface": "up"},
+				"up": {"uv": [0, 0, 1, 2], "texture": "#4", "cullface": "up"}
+			}
+		},
+		{
+			"from": [2, 16, 2],
+			"to": [5, 17, 6],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2, 16, 2]},
+			"faces": {
+				"north": {"uv": [0, 0, 3, 1], "texture": "#4", "cullface": "up"},
+				"east": {"uv": [0, 0, 4, 1], "texture": "#4", "cullface": "up"},
+				"south": {"uv": [0, 0, 3, 1], "texture": "#4", "cullface": "up"},
+				"west": {"uv": [0, 0, 4, 1], "texture": "#4", "cullface": "up"},
+				"up": {"uv": [6, 3, 9, 7], "texture": "#4", "cullface": "up"}
+			}
+		}
+	],
+	"display": {},
+	"groups": [
+		0,
+		1,
+		{
+			"name": "stone",
+			"origin": [0, 17, 3],
+			"color": 0,
+			"children": [2, 3]
+		}
+	]
+}

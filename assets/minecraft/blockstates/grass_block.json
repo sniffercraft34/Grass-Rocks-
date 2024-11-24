@@ -1,0 +1,39 @@
+{
+    "variants": {
+        "snowy=false": [
+            { "model": "block/grass_block", "y": 0, "weight": 2450 },
+            { "model": "block/grass_block", "y": 90, "weight": 2450 },
+            { "model": "block/grass_block", "y": 180, "weight": 2450 },
+            { "model": "block/grass_block", "y": 270, "weight": 2450 },
+            { "model": "block/grass_block_0", "y": 90, "weight": 8 },
+            { "model": "block/grass_block_0", "y": 180, "weight": 8 },
+            { "model": "block/grass_block_0", "y": 270, "weight": 9 },
+
+            { "model": "block/grass_block_1", "y": 0, "weight": 8 },
+            { "model": "block/grass_block_1", "y": 90, "weight": 8 },
+            { "model": "block/grass_block_1", "y": 180, "weight": 8 },
+            { "model": "block/grass_block_1", "y": 270, "weight": 9 },
+
+            { "model": "block/grass_block_2", "y": 0, "weight": 8 },
+            { "model": "block/grass_block_2", "y": 90, "weight": 8 },
+            { "model": "block/grass_block_2", "y": 180, "weight": 8 },
+            { "model": "block/grass_block_2", "y": 270, "weight": 9 },
+
+            { "model": "block/grass_block_3", "y": 0, "weight": 8 },
+            { "model": "block/grass_block_3", "y": 90, "weight": 8 },
+            { "model": "block/grass_block_3", "y": 180, "weight": 8 },
+            { "model": "block/grass_block_3", "y": 270, "weight": 9 },
+
+            { "model": "block/grass_block_4", "y": 0, "weight": 8 },
+            { "model": "block/grass_block_4", "y": 90, "weight": 8 },
+            { "model": "block/grass_block_4", "y": 180, "weight": 8 },
+            { "model": "block/grass_block_4", "y": 270, "weight": 9 },
+
+            { "model": "block/grass_block_5", "y": 0, "weight": 9 },
+            { "model": "block/grass_block_5", "y": 90, "weight": 9 },
+            { "model": "block/grass_block_5", "y": 180, "weight": 9 },
+            { "model": "block/grass_block_5", "y": 270, "weight": 8 }
+        ],
+        "snowy=true": { "model": "block/grass_block_snow" }
+    }
+}

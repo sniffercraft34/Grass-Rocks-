@@ -1,0 +1,10 @@
+{
+    "pack": {
+        "pack_format": 15,
+        "description": "Adds small rocks and pebbles to grass blocks and similar",
+        "supported_formats": {
+            "min_inclusive": 15,
+            "max_inclusive": 99
+        }
+    }
+}

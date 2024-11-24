@@ -1,0 +1,40 @@
+{
+    "variants": {
+        "": [
+            { "model": "block/warped_nylium", "y": 0, "weight": 2450 },
+            { "model": "block/warped_nylium", "y": 90, "weight": 2450 },
+            { "model": "block/warped_nylium", "y": 180, "weight": 2450 },
+            { "model": "block/warped_nylium", "y": 270, "weight": 2450 },
+
+            { "model": "block/warped_nylium_0", "y": 0, "weight": 8 },
+            { "model": "block/warped_nylium_0", "y": 90, "weight": 8 },
+            { "model": "block/warped_nylium_0", "y": 180, "weight": 8 },
+            { "model": "block/warped_nylium_0", "y": 270, "weight": 9 },
+
+            { "model": "block/warped_nylium_1", "y": 0, "weight": 8 },
+            { "model": "block/warped_nylium_1", "y": 90, "weight": 8 },
+            { "model": "block/warped_nylium_1", "y": 180, "weight": 8 },
+            { "model": "block/warped_nylium_1", "y": 270, "weight": 9 },
+
+            { "model": "block/warped_nylium_2", "y": 0, "weight": 8 },
+            { "model": "block/warped_nylium_2", "y": 90, "weight": 8 },
+            { "model": "block/warped_nylium_2", "y": 180, "weight": 8 },
+            { "model": "block/warped_nylium_2", "y": 270, "weight": 9 },
+
+            { "model": "block/warped_nylium_3", "y": 0, "weight": 8 },
+            { "model": "block/warped_nylium_3", "y": 90, "weight": 8 },
+            { "model": "block/warped_nylium_3", "y": 180, "weight": 8 },
+            { "model": "block/warped_nylium_3", "y": 270, "weight": 9 },
+
+            { "model": "block/warped_nylium_4", "y": 0, "weight": 8 },
+            { "model": "block/warped_nylium_4", "y": 90, "weight": 8 },
+            { "model": "block/warped_nylium_4", "y": 180, "weight": 8 },
+            { "model": "block/warped_nylium_4", "y": 270, "weight": 9 },
+
+            { "model": "block/warped_nylium_5", "y": 0, "weight": 9 },
+            { "model": "block/warped_nylium_5", "y": 90, "weight": 9 },
+            { "model": "block/warped_nylium_5", "y": 180, "weight": 9 },
+            { "model": "block/warped_nylium_5", "y": 270, "weight": 8 }
+        ]
+    }
+}
